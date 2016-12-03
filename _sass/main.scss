@@ -109,7 +109,7 @@ span[data-note] {
 }
 .logo {
   position: relative;
-  margin: 0 auto 35px;
+  margin: 15% auto 35px;
   text-align: center;
   /*animation-duration: 0.7s;
   animation-fill-mode: both;
@@ -357,6 +357,7 @@ section {
     list-style: none;
     margin: 0;
     padding: 0;
+      background-color: #e8eee0;
     li {
       margin: 25px 0;
       .title {
