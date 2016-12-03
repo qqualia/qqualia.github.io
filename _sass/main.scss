@@ -151,7 +151,7 @@ span[data-note] {
     }
   }
   .logo-prompt {
-    position: absolute;
+   position: absolute; 
     display: none;
     vertical-align: middle;
     padding: 5px;
@@ -164,7 +164,7 @@ span[data-note] {
     text-align: center;
     line-height: 1.2;
     top: 50%;
-    margin-top: -10px;
+    margin-top: 22px;
     &:before {
       content: "";
       border-width: 5px 5px 5px 0;
