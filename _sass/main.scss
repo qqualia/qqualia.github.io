@@ -461,11 +461,12 @@ section {
     list-style: none;
     margin: 0;
     padding: 0;
-      background-color: #e8eee0;
+     
     li {
       margin: 25px 0;
       .title {
         max-width: 100%;
+           background-color: #e8eee0;
         //overflow: hidden !important;
         //text-overflow: ellipsis !important;
         //white-space: nowrap !important;
@@ -476,6 +477,7 @@ section {
         border: 0;
         color: #000;
         box-sizing: border-box;
+          
       }
       .post-date {
         float: right;
