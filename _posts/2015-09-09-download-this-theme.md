@@ -1,6 +1,7 @@
 ---
 title: Download this Theme
 updated: 2015-09-09 10:38
+tags: [web design, coding, blog, happiness, unicorns]
 ---
 
 This is a minimalist Jekyll theme built to focus on writing stuffs that matter. Suitable to be used as a personal blog!

@@ -1,5 +1,6 @@
 <aside class="logo">
 
+  
 	{% if page.url == '/index.html' or page.url == '/' %}
 		{% assign link = '/about' %}
 		{% assign prompt = 'About the Author' %}
@@ -8,9 +9,21 @@
 		{% assign prompt = 'Back to Home' %}
 	{% endif %}
 
-	<a href="{{ link | prepend: site.baseurl }}">
+	<a href="{{ link | prepend: site.baseurl }}" id="top">
         <h1>Qualia</h1>
 	</a>
 	<span class="logo-prompt">{{ prompt }}</span>
 
+      
+    
 </aside>
+      <nav>
+    <ul>
+        <li>
+         <a href="/about">About</a>   
+        </li>
+        <li>
+         <a href="/tags">Archives</a>   
+        </li>
+        </ul>
+    </nav>
