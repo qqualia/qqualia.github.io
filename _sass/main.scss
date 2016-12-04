@@ -134,7 +134,7 @@ span[data-note] {
     color: #000;
     text-decoration: none;
     font-weight: 700;
-    
+    outline: none; 
     font-size: 1.5em; 
       border: none; 
     /*border-radius: 100%;*/
@@ -163,6 +163,7 @@ span[data-note] {
       }*/
     }
   }
+/*
   .logo-prompt {
    position: absolute; 
     display: none;
@@ -190,7 +191,7 @@ span[data-note] {
       margin-top: -5px;
     }
   }
-
+*/
 
 
 /*more styling added */
