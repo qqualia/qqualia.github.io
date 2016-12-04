@@ -1,6 +1,8 @@
 ---
-title: about
+title: Adam Miller 
 layout: page
 ---
 
-Hello
+## Who I Am  
+
+I am a writer. 
