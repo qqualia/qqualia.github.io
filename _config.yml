@@ -1,8 +1,8 @@
 # Site Info
-title:              "The Plain"
-description:        "The Plain is a Minimalist Jekyll theme that focuses on writing matters."
-google_verify:      epFgX0s_0RM3CdjwFcsewfXzPov2g8s9ZBOLyaIUH-o # Put your Google Verification here
-google_analytics:   UA-XXXXXXX-X # Put your Google Analytics code
+title:              "Qualia"
+description:        "The personal blog of Adam Lawrence Miller, writer."
+google_verify:      # Put your Google Verification here
+google_analytics:   # Put your Google Analytics code
 
 # Author Info
 author_name:        "Adam Lawrence Miller"
@@ -29,7 +29,7 @@ sass:
 
 # Other Params
 include:            [ "robots.txt" ]
-exclude:            [ "LICENSE", "README.md", "CNAME", "vendor", "Gemfile" ]
+exclude:            [ "LICENSE", "CNAME", "vendor", "Gemfile" ]
 gems:
   - jekyll-sitemap
 
