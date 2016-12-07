@@ -23,7 +23,7 @@ img {
   max-width: 100%;
 }
 a {
-  color: inherit;
+  color: #f3a723; 
   text-decoration: none;
   border-bottom: 1px solid #555;
   &.image {
@@ -207,6 +207,7 @@ nav {
 
 nav a {
     text-decoration: none; 
+    color: black; 
     border-bottom: 2px solid transparent;
 }
 nav a:hover {
@@ -223,15 +224,33 @@ nav ul {
     
   nav li {
         float: left; 
-      margin-right: 1em; 
-        
+      margin-right: 1em;      
     }
+
+.postTitle {
+    margin: auto; 
+    width: 500px; 
+    text-align: right; 
+    position: relative; 
+}
+.gravitar {
+    float: left; 
+    width: 150px; 
+    text-align: left; 
+}
+
+.rightTitle {
+    display: block;
+    float: right; 
+    width: 300px; 
+}
 
 .tags {
      width: 500px; 
     position: relative;
   margin: 0 auto 60px;
 }
+
 
   /* end more styling */ 
 
@@ -265,6 +284,7 @@ Archive styles
 }
 .tag-cloud a {
 	text-decoration: none;
+    color: black; 
 	font-size: 0.8em;
     border-bottom: 2px solid #bde90e;
 	/*
@@ -287,6 +307,9 @@ h3:target + .taglist .return {
 	content: '\25b2\00a0';
 }
 
+.taglist a {
+    color: black; 
+}
 
 /*
 end archive styles
