@@ -13,15 +13,29 @@ h2,
 h3,
 h4,
 h5 {
-  margin: 45px 0 25px;
+  margin: 25px 0 10px;
 }
+
 
 article h1 {
     background-color: #e8eee0; 
+    margin-bottom: .2em; 
 }
+
+
 img {
   max-width: 100%;
 }
+
+article img {
+       border-radius: 5px;
+    border-top: solid 6px;
+    border-bottom: solid 6px; 
+    border-color: lightgray;
+    margin: .7em 0em;
+    
+}
+
 a {
   color: #f3a723; 
   text-decoration: none;
@@ -86,7 +100,7 @@ span[data-note] {
   transform: translateY( calc( 100% + 8px ) );
   -webkit-transform: translateY( calc( 100% + 8px ) );
   font-size: 14px;
-  line-height: 1.7em;
+  line-height: 1em;
   &.shown {
     transform: translateY( 0 );
     -webkit-transform: translateY( 0 );
@@ -112,6 +126,42 @@ span[data-note] {
   }
 }
 
+/*pros list */
+.pros ul {
+    list-style: none;
+    margin-left: 1em;
+    padding-left: 0;
+}
+
+.pros li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.pros li:before {
+    font-weight: 700;
+    content: "+";
+    margin-right: .5em;
+}
+/*end pros list*/
+/*cons list */
+.cons ul {
+    list-style: none;
+    margin-left: 1em;
+    padding-left: 0;
+}
+
+.cons li {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.cons li:before {
+    font-weight: 700;
+    content: "-";
+    margin-right: .5em;
+}
+/*end cons list */
 
 
 .fortune {
@@ -120,6 +170,8 @@ span[data-note] {
     color: black; 
     font-size: 1.2em; 
     }
+
+
 
 .logo {
   position: relative;
@@ -320,7 +372,7 @@ iframe {
 }
 ul,
 ol {
-  margin: 40px 0;
+  margin: 20px 0;
   padding-left: 50px;
   li {
     word-wrap: break-word;
@@ -338,6 +390,8 @@ sup {
 }
 time {
   color: #555;
+   
+ 
 }
 code,
 pre {
@@ -403,7 +457,7 @@ article {
   }
   .center {
     text-align: center;
-    margin: 0 auto;
+    margin: 0 auto 1.5em auto;
   }
   hr {
     border: 0;
@@ -412,7 +466,7 @@ article {
   }
   p {
     font-size: 15px;
-    line-height: 1.9em;
+    line-height: 1.4em;
     word-wrap: break-word;
   }
    
